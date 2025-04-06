@@ -1,0 +1,40 @@
+
+El elemento 322486 se encuentra en la posicion 1611, relizo: 22 comparaciones
+
+El elemento 14700764 no se encuentra en el arreglo, relizo: 23 comparaciones
+
+El elemento 3128036 se encuentra en la posicion 14725, relizo: 22 comparaciones
+
+El elemento 6337399 se encuentra en la posicion 29544, relizo: 22 comparaciones
+
+El elemento 61396 no se encuentra en el arreglo, relizo: 24 comparaciones
+
+El elemento 10393545 se encuentra en la posicion 48374, relizo: 23 comparaciones
+
+El elemento 2147445644 no se encuentra en el arreglo, relizo: 24 comparaciones
+
+El elemento 1295390003 se encuentra en la posicion 6031093, relizo: 22 comparaciones
+
+El elemento 450057883 no se encuentra en el arreglo, relizo: 23 comparaciones
+
+El elemento 187645041 no se encuentra en el arreglo, relizo: 23 comparaciones
+
+El elemento 1980098116 no se encuentra en el arreglo, relizo: 23 comparaciones
+
+El elemento 152503 no se encuentra en el arreglo, relizo: 23 comparaciones
+
+El elemento 5000 no se encuentra en el arreglo, relizo: 23 comparaciones
+
+El elemento 1493283650 se encuentra en la posicion 6952607, relizo: 24 comparaciones
+
+El elemento 214826 no se encuentra en el arreglo, relizo: 24 comparaciones
+
+El elemento 1843349527 se encuentra en la posicion 8582390, relizo: 22 comparaciones
+
+El elemento 1360839354 no se encuentra en el arreglo, relizo: 23 comparaciones
+
+El elemento 2109248666 se encuentra en la posicion 9822539, relizo: 22 comparaciones
+
+El elemento 2147470852 se encuentra en la posicion 9999942, relizo: 19 comparaciones
+
+El elemento 0 no se encuentra en el arreglo, relizo: 23 comparaciones

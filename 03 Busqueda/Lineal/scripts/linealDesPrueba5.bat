@@ -21,7 +21,6 @@ gcc .\Lineal\busquedaLinealDes.c -o .\Lineal\bLinealDes
 .\Lineal\bLinealDes 5000000 2147470852 < numeros10millones.txt >> .\Lineal/salida/linealDesTest5.txt
 .\Lineal\bLinealDes 5000000 0 < numeros10millones.txt >> .\Lineal/salida/linealDesTest5.txt
 
-
 .\Lineal\bLinealDes 5000000 322486 < numeros10millonesOrdenados.txt >> .\Lineal/salida/linealDesTest2.5.txt
 .\Lineal\bLinealDes 5000000 14700764 < numeros10millonesOrdenados.txt >> .\Lineal/salida/linealDesTest2.5.txt
 .\Lineal\bLinealDes 5000000 3128036 < numeros10millonesOrdenados.txt >> .\Lineal/salida/linealDesTest2.5.txt

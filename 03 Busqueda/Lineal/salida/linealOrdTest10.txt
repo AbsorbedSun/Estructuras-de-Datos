@@ -1,0 +1,40 @@
+
+El elemento 322486 se encuentra en la posicion  8674905, realizo un total de: 8674906 comparaciones
+
+El elemento 14700764 no se encuentra en el arreglo, realizo un total de: 10000000 comparaciones
+
+El elemento 3128036 se encuentra en la posicion  1368035, realizo un total de: 1368036 comparaciones
+
+El elemento 6337399 se encuentra en la posicion  6334598, realizo un total de: 6334599 comparaciones
+
+El elemento 61396 no se encuentra en el arreglo, realizo un total de: 10000000 comparaciones
+
+El elemento 10393545 se encuentra en la posicion  6936855, realizo un total de: 6936856 comparaciones
+
+El elemento 2147445644 no se encuentra en el arreglo, realizo un total de: 10000000 comparaciones
+
+El elemento 1295390003 se encuentra en la posicion  8313715, realizo un total de: 8313716 comparaciones
+
+El elemento 450057883 no se encuentra en el arreglo, realizo un total de: 10000000 comparaciones
+
+El elemento 187645041 no se encuentra en el arreglo, realizo un total de: 10000000 comparaciones
+
+El elemento 1980098116 no se encuentra en el arreglo, realizo un total de: 10000000 comparaciones
+
+El elemento 152503 no se encuentra en el arreglo, realizo un total de: 10000000 comparaciones
+
+El elemento 5000 no se encuentra en el arreglo, realizo un total de: 10000000 comparaciones
+
+El elemento 1493283650 se encuentra en la posicion  542694, realizo un total de: 542695 comparaciones
+
+El elemento 214826 no se encuentra en el arreglo, realizo un total de: 10000000 comparaciones
+
+El elemento 1843349527 se encuentra en la posicion  2415203, realizo un total de: 2415204 comparaciones
+
+El elemento 1360839354 no se encuentra en el arreglo, realizo un total de: 10000000 comparaciones
+
+El elemento 2109248666 se encuentra en la posicion  6630039, realizo un total de: 6630040 comparaciones
+
+El elemento 2147470852 se encuentra en la posicion  7902795, realizo un total de: 7902796 comparaciones
+
+El elemento 0 no se encuentra en el arreglo, realizo un total de: 10000000 comparaciones

@@ -1,9 +1,38 @@
+/*  
+  mochilaExhaustiva.c
+  Autor: Aldo Garcia Ambrosio (C) Abril 2025
+  Uso de IA: Claude 3.7 Sonnet
+  Version: 1.3
+  
+  Programa que resuelve el problema  de la mochila mediante un algoritmo de búsqueda exhaustiva.
+  Dados n objetos, cada uno con un peso y un valor, se busca determinar la combinación de objetos que
+  maximice el valor total sin exceder la capacidad de la mochila.
+  
+  Complejidad: O(2^n)
+  
+  Observaciones: Utiliza recursividad para evaluar todas las posibles combinaciones de objetos.
+  
+  Compilación: Windows / Linux: gcc mochila01_ganancia.c -o gananciaMochila01
+  
+  Ejecución: ./gananciaMochila01 [peso] [num_objetos] < datos.txt
+            Donde {peso} es la capacidad máxima de la mochila y {num_objetos} es el número de objetos
+            datos.txt contiene en las primeras n líneas los pesos y en las siguientes n líneas los valores
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
-// Función que resuelve el problema de la mochila mediante búsqueda exhaustiva
+// Prototipos de funciones
 int mochilaExhaustiva(int *pesos, int *valores, int n, int objActual, int capacidadRestante, int valorActual);
 
+/*
+int main(int num_arg, char *arg_user[])
+Recibe: int num_arg como el total de argumentos ingresados al programa y char *arg_user[] 
+como un arreglo que almacena los argumentos de entrada del programa.
+Devuelve: 0 si termina correctamente, 1 si hay algún error
+Observaciones: Función principal que valida los argumentos, crea los arreglos de pesos y valores,
+invoca el algoritmo de búsqueda exhaustiva y libera la memoria al finalizar.
+*/
 int main(int num_arg, char *arg_user[]) {
     // Verificar argumentos
     if (num_arg != 3) {
@@ -15,7 +44,7 @@ int main(int num_arg, char *arg_user[]) {
     int pesoMaximo = atoi(arg_user[1]);
     int n = atoi(arg_user[2]);
     
-    // Reservar memoria para los arreglos
+    // Reservar memoria para los arreglos de pesos y valores
     int *pesos = malloc(n * sizeof(int));
     int *valores = malloc(n * sizeof(int));
     
@@ -48,7 +77,7 @@ int main(int num_arg, char *arg_user[]) {
     int maxValue = mochilaExhaustiva(pesos, valores, n, 0, pesoMaximo, 0);
     
     // Imprimimos el resultado
-    printf("\nLa máxima ganancia posible es: %d\n", maxValue);
+    printf("\nLa maxima ganancia posible es: %d\n", maxValue);
     
     // Liberar memoria asignada
     free(pesos);
@@ -57,21 +86,14 @@ int main(int num_arg, char *arg_user[]) {
     return 0;
 }
 
-/*
-La función mochilaExhaustiva realiza una búsqueda exhaustiva para resolver el problema de la mochila.
-Evalúa todas las posibles combinaciones de objetos y devuelve el valor máximo que se puede obtener
-sin exceder la capacidad de la mochila.
-
-Parámetros:
-- pesos: arreglo con los pesos de los objetos
-- valores: arreglo con los valores de los objetos
-- n: número total de objetos
-- objActual: índice del objeto actual que se está considerando
-- capacidadRestante: capacidad restante de la mochila
-- valorActual: valor acumulado hasta el momento
-
-Retorno:
-- El valor máximo que se puede obtener sin exceder la capacidad de la mochila
+/* 
+int mochilaExhaustiva(int *pesos, int *valores, int n, int objActual, int capacidadRestante, int valorActual)
+Recibe: int *pesos como arreglo de pesos, int *valores como arreglo de valores, n como número total de objetos,
+objActual como índice del objeto que se está evaluando, capacidadRestante como capacidad disponible en la mochila,
+valorActual como valor acumulado hasta el momento.
+Devuelve: int que representa el valor máximo que se puede obtener
+Observaciones: Función recursiva que implementa la búsqueda exhaustiva, evaluando todas las posibles
+combinaciones de objetos (incluir o no incluir cada objeto).
 */
 int mochilaExhaustiva(int *pesos, int *valores, int n, int objActual, int capacidadRestante, int valorActual) 
 {

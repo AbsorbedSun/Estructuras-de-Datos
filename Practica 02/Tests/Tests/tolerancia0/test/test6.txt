@@ -1,0 +1,140 @@
+Padding: 3
+
+*************************************************************************
+Imagen: Imagenes/ApocalipsisTest6.bmp
+Dimensiones de la imagen:	Ancho=175	Alto=294
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	5043
+
+Tiempo medido:	0.00047200 segundos.
+
+Recursiones hechas:	10935
+*************************************************************************
+Padding: 3
+
+*************************************************************************
+Imagen: Imagenes/ApocalipsisTest6.bmp
+Dimensiones de la imagen:	Ancho=175	Alto=294
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	5043
+
+Tiempo medido:	0.00047500 segundos.
+
+Recursiones hechas:	10935
+*************************************************************************
+Padding: 3
+
+*************************************************************************
+Imagen: Imagenes/ApocalipsisTest6.bmp
+Dimensiones de la imagen:	Ancho=175	Alto=294
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	5043
+
+Tiempo medido:	0.00043800 segundos.
+
+Recursiones hechas:	10935
+*************************************************************************
+Padding: 3
+
+*************************************************************************
+Imagen: Imagenes/ApocalipsisTest6.bmp
+Dimensiones de la imagen:	Ancho=175	Alto=294
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	5043
+
+Tiempo medido:	0.00070600 segundos.
+
+Recursiones hechas:	10935
+*************************************************************************
+Padding: 3
+
+*************************************************************************
+Imagen: Imagenes/ApocalipsisTest6.bmp
+Dimensiones de la imagen:	Ancho=175	Alto=294
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	5043
+
+Tiempo medido:	0.00054300 segundos.
+
+Recursiones hechas:	10935
+*************************************************************************
+Padding: 3
+
+*************************************************************************
+Imagen: Imagenes/ApocalipsisTest6.bmp
+Dimensiones de la imagen:	Ancho=175	Alto=294
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	5043
+
+Tiempo medido:	0.00059300 segundos.
+
+Recursiones hechas:	10935
+*************************************************************************
+Padding: 3
+
+*************************************************************************
+Imagen: Imagenes/ApocalipsisTest6.bmp
+Dimensiones de la imagen:	Ancho=175	Alto=294
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	5043
+
+Tiempo medido:	0.00053300 segundos.
+
+Recursiones hechas:	10935
+*************************************************************************
+Padding: 3
+
+*************************************************************************
+Imagen: Imagenes/ApocalipsisTest6.bmp
+Dimensiones de la imagen:	Ancho=175	Alto=294
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	5043
+
+Tiempo medido:	0.00059700 segundos.
+
+Recursiones hechas:	10935
+*************************************************************************
+Padding: 3
+
+*************************************************************************
+Imagen: Imagenes/ApocalipsisTest6.bmp
+Dimensiones de la imagen:	Ancho=175	Alto=294
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	5043
+
+Tiempo medido:	0.00041200 segundos.
+
+Recursiones hechas:	10935
+*************************************************************************
+Padding: 3
+
+*************************************************************************
+Imagen: Imagenes/ApocalipsisTest6.bmp
+Dimensiones de la imagen:	Ancho=175	Alto=294
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	5043
+
+Tiempo medido:	0.00041500 segundos.
+
+Recursiones hechas:	10935
+*************************************************************************

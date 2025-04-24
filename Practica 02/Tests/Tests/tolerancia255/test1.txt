@@ -1,0 +1,154 @@
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/GatoTest1.bmp
+Dimensiones de la imagen:	Ancho=1200	Alto=1200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	1440000
+
+Tiempo medido:	0.14690700 segundos.
+
+Recursiones hechas:	2886537
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/GatoTest1.bmp
+Dimensiones de la imagen:	Ancho=1200	Alto=1200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	1440000
+
+Tiempo medido:	0.15511100 segundos.
+
+Recursiones hechas:	2886537
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/GatoTest1.bmp
+Dimensiones de la imagen:	Ancho=1200	Alto=1200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	1440000
+
+Tiempo medido:	0.15200200 segundos.
+
+Recursiones hechas:	2886537
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/GatoTest1.bmp
+Dimensiones de la imagen:	Ancho=1200	Alto=1200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	1440000
+
+Tiempo medido:	0.15227100 segundos.
+
+Recursiones hechas:	2886537
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/GatoTest1.bmp
+Dimensiones de la imagen:	Ancho=1200	Alto=1200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	1440000
+
+Tiempo medido:	0.14893900 segundos.
+
+Recursiones hechas:	2886537
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/GatoTest1.bmp
+Dimensiones de la imagen:	Ancho=1200	Alto=1200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	1440000
+
+Tiempo medido:	0.14541000 segundos.
+
+Recursiones hechas:	2886537
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/GatoTest1.bmp
+Dimensiones de la imagen:	Ancho=1200	Alto=1200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	1440000
+
+Tiempo medido:	0.14699000 segundos.
+
+Recursiones hechas:	2886537
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/GatoTest1.bmp
+Dimensiones de la imagen:	Ancho=1200	Alto=1200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	1440000
+
+Tiempo medido:	0.13632800 segundos.
+
+Recursiones hechas:	2886537
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/GatoTest1.bmp
+Dimensiones de la imagen:	Ancho=1200	Alto=1200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	1440000
+
+Tiempo medido:	0.13241300 segundos.
+
+Recursiones hechas:	2886537
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/GatoTest1.bmp
+Dimensiones de la imagen:	Ancho=1200	Alto=1200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	1440000
+
+Tiempo medido:	0.12967700 segundos.
+
+Recursiones hechas:	2886537
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/GatoTest1.bmp
+Dimensiones de la imagen:	Ancho=1200	Alto=1200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	1440000
+
+Tiempo medido:	0.11852300 segundos.
+
+Recursiones hechas:	2886537
+*************************************************************************

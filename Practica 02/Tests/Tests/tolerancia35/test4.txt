@@ -1,0 +1,140 @@
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/AntenaTest4.bmp
+Dimensiones de la imagen:	Ancho=1200	Alto=1524
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	203841
+
+Tiempo medido:	0.01592000 segundos.
+
+Recursiones hechas:	421175
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/AntenaTest4.bmp
+Dimensiones de la imagen:	Ancho=1200	Alto=1524
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	203841
+
+Tiempo medido:	0.01586400 segundos.
+
+Recursiones hechas:	421175
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/AntenaTest4.bmp
+Dimensiones de la imagen:	Ancho=1200	Alto=1524
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	203841
+
+Tiempo medido:	0.01694000 segundos.
+
+Recursiones hechas:	421175
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/AntenaTest4.bmp
+Dimensiones de la imagen:	Ancho=1200	Alto=1524
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	203841
+
+Tiempo medido:	0.01885600 segundos.
+
+Recursiones hechas:	421175
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/AntenaTest4.bmp
+Dimensiones de la imagen:	Ancho=1200	Alto=1524
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	203841
+
+Tiempo medido:	0.01574200 segundos.
+
+Recursiones hechas:	421175
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/AntenaTest4.bmp
+Dimensiones de la imagen:	Ancho=1200	Alto=1524
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	203841
+
+Tiempo medido:	0.01649500 segundos.
+
+Recursiones hechas:	421175
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/AntenaTest4.bmp
+Dimensiones de la imagen:	Ancho=1200	Alto=1524
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	203841
+
+Tiempo medido:	0.01720300 segundos.
+
+Recursiones hechas:	421175
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/AntenaTest4.bmp
+Dimensiones de la imagen:	Ancho=1200	Alto=1524
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	203841
+
+Tiempo medido:	0.01673900 segundos.
+
+Recursiones hechas:	421175
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/AntenaTest4.bmp
+Dimensiones de la imagen:	Ancho=1200	Alto=1524
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	203841
+
+Tiempo medido:	0.01668900 segundos.
+
+Recursiones hechas:	421175
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/AntenaTest4.bmp
+Dimensiones de la imagen:	Ancho=1200	Alto=1524
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	203841
+
+Tiempo medido:	0.01750900 segundos.
+
+Recursiones hechas:	421175
+*************************************************************************

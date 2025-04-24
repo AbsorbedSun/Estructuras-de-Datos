@@ -1,0 +1,140 @@
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/CiudadTest5.bmp
+Dimensiones de la imagen:	Ancho=480	Alto=270
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	63469
+
+Tiempo medido:	0.00609100 segundos.
+
+Recursiones hechas:	134657
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/CiudadTest5.bmp
+Dimensiones de la imagen:	Ancho=480	Alto=270
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	63469
+
+Tiempo medido:	0.00567000 segundos.
+
+Recursiones hechas:	134657
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/CiudadTest5.bmp
+Dimensiones de la imagen:	Ancho=480	Alto=270
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	63469
+
+Tiempo medido:	0.00535100 segundos.
+
+Recursiones hechas:	134657
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/CiudadTest5.bmp
+Dimensiones de la imagen:	Ancho=480	Alto=270
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	63469
+
+Tiempo medido:	0.00590000 segundos.
+
+Recursiones hechas:	134657
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/CiudadTest5.bmp
+Dimensiones de la imagen:	Ancho=480	Alto=270
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	63469
+
+Tiempo medido:	0.00571800 segundos.
+
+Recursiones hechas:	134657
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/CiudadTest5.bmp
+Dimensiones de la imagen:	Ancho=480	Alto=270
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	63469
+
+Tiempo medido:	0.00634100 segundos.
+
+Recursiones hechas:	134657
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/CiudadTest5.bmp
+Dimensiones de la imagen:	Ancho=480	Alto=270
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	63469
+
+Tiempo medido:	0.00563000 segundos.
+
+Recursiones hechas:	134657
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/CiudadTest5.bmp
+Dimensiones de la imagen:	Ancho=480	Alto=270
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	63469
+
+Tiempo medido:	0.00565800 segundos.
+
+Recursiones hechas:	134657
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/CiudadTest5.bmp
+Dimensiones de la imagen:	Ancho=480	Alto=270
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	63469
+
+Tiempo medido:	0.00700000 segundos.
+
+Recursiones hechas:	134657
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/CiudadTest5.bmp
+Dimensiones de la imagen:	Ancho=480	Alto=270
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	63469
+
+Tiempo medido:	0.00527800 segundos.
+
+Recursiones hechas:	134657
+*************************************************************************

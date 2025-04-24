@@ -1,0 +1,140 @@
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/FarosTest10.bmp
+Dimensiones de la imagen:	Ancho=324	Alto=216
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	7110
+
+Tiempo medido:	0.00072500 segundos.
+
+Recursiones hechas:	16183
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/FarosTest10.bmp
+Dimensiones de la imagen:	Ancho=324	Alto=216
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	7110
+
+Tiempo medido:	0.00063300 segundos.
+
+Recursiones hechas:	16183
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/FarosTest10.bmp
+Dimensiones de la imagen:	Ancho=324	Alto=216
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	7110
+
+Tiempo medido:	0.00063100 segundos.
+
+Recursiones hechas:	16183
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/FarosTest10.bmp
+Dimensiones de la imagen:	Ancho=324	Alto=216
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	7110
+
+Tiempo medido:	0.00065300 segundos.
+
+Recursiones hechas:	16183
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/FarosTest10.bmp
+Dimensiones de la imagen:	Ancho=324	Alto=216
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	7110
+
+Tiempo medido:	0.00074700 segundos.
+
+Recursiones hechas:	16183
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/FarosTest10.bmp
+Dimensiones de la imagen:	Ancho=324	Alto=216
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	7110
+
+Tiempo medido:	0.00125700 segundos.
+
+Recursiones hechas:	16183
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/FarosTest10.bmp
+Dimensiones de la imagen:	Ancho=324	Alto=216
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	7110
+
+Tiempo medido:	0.00075700 segundos.
+
+Recursiones hechas:	16183
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/FarosTest10.bmp
+Dimensiones de la imagen:	Ancho=324	Alto=216
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	7110
+
+Tiempo medido:	0.00098000 segundos.
+
+Recursiones hechas:	16183
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/FarosTest10.bmp
+Dimensiones de la imagen:	Ancho=324	Alto=216
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	7110
+
+Tiempo medido:	0.00068200 segundos.
+
+Recursiones hechas:	16183
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/FarosTest10.bmp
+Dimensiones de la imagen:	Ancho=324	Alto=216
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	7110
+
+Tiempo medido:	0.00073700 segundos.
+
+Recursiones hechas:	16183
+*************************************************************************

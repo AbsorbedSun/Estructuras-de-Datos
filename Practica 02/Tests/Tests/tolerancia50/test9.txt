@@ -1,0 +1,140 @@
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/ViajeTest9.bmp
+Dimensiones de la imagen:	Ancho=1920	Alto=640
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	500512
+
+Tiempo medido:	0.03612500 segundos.
+
+Recursiones hechas:	1020913
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/ViajeTest9.bmp
+Dimensiones de la imagen:	Ancho=1920	Alto=640
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	500512
+
+Tiempo medido:	0.04037500 segundos.
+
+Recursiones hechas:	1020913
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/ViajeTest9.bmp
+Dimensiones de la imagen:	Ancho=1920	Alto=640
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	500512
+
+Tiempo medido:	0.03706300 segundos.
+
+Recursiones hechas:	1020913
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/ViajeTest9.bmp
+Dimensiones de la imagen:	Ancho=1920	Alto=640
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	500512
+
+Tiempo medido:	0.03655900 segundos.
+
+Recursiones hechas:	1020913
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/ViajeTest9.bmp
+Dimensiones de la imagen:	Ancho=1920	Alto=640
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	500512
+
+Tiempo medido:	0.03694700 segundos.
+
+Recursiones hechas:	1020913
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/ViajeTest9.bmp
+Dimensiones de la imagen:	Ancho=1920	Alto=640
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	500512
+
+Tiempo medido:	0.03656900 segundos.
+
+Recursiones hechas:	1020913
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/ViajeTest9.bmp
+Dimensiones de la imagen:	Ancho=1920	Alto=640
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	500512
+
+Tiempo medido:	0.04056100 segundos.
+
+Recursiones hechas:	1020913
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/ViajeTest9.bmp
+Dimensiones de la imagen:	Ancho=1920	Alto=640
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	500512
+
+Tiempo medido:	0.03670700 segundos.
+
+Recursiones hechas:	1020913
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/ViajeTest9.bmp
+Dimensiones de la imagen:	Ancho=1920	Alto=640
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	500512
+
+Tiempo medido:	0.03703300 segundos.
+
+Recursiones hechas:	1020913
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/ViajeTest9.bmp
+Dimensiones de la imagen:	Ancho=1920	Alto=640
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	500512
+
+Tiempo medido:	0.03611700 segundos.
+
+Recursiones hechas:	1020913
+*************************************************************************

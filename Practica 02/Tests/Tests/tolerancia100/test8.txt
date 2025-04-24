@@ -1,0 +1,140 @@
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/SunTest8.bmp
+Dimensiones de la imagen:	Ancho=1200	Alto=1200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	489136
+
+Tiempo medido:	0.03871900 segundos.
+
+Recursiones hechas:	986717
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/SunTest8.bmp
+Dimensiones de la imagen:	Ancho=1200	Alto=1200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	489136
+
+Tiempo medido:	0.04129800 segundos.
+
+Recursiones hechas:	986717
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/SunTest8.bmp
+Dimensiones de la imagen:	Ancho=1200	Alto=1200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	489136
+
+Tiempo medido:	0.03763700 segundos.
+
+Recursiones hechas:	986717
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/SunTest8.bmp
+Dimensiones de la imagen:	Ancho=1200	Alto=1200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	489136
+
+Tiempo medido:	0.03912600 segundos.
+
+Recursiones hechas:	986717
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/SunTest8.bmp
+Dimensiones de la imagen:	Ancho=1200	Alto=1200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	489136
+
+Tiempo medido:	0.04107500 segundos.
+
+Recursiones hechas:	986717
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/SunTest8.bmp
+Dimensiones de la imagen:	Ancho=1200	Alto=1200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	489136
+
+Tiempo medido:	0.04271700 segundos.
+
+Recursiones hechas:	986717
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/SunTest8.bmp
+Dimensiones de la imagen:	Ancho=1200	Alto=1200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	489136
+
+Tiempo medido:	0.03942300 segundos.
+
+Recursiones hechas:	986717
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/SunTest8.bmp
+Dimensiones de la imagen:	Ancho=1200	Alto=1200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	489136
+
+Tiempo medido:	0.04075400 segundos.
+
+Recursiones hechas:	986717
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/SunTest8.bmp
+Dimensiones de la imagen:	Ancho=1200	Alto=1200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	489136
+
+Tiempo medido:	0.04397400 segundos.
+
+Recursiones hechas:	986717
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/SunTest8.bmp
+Dimensiones de la imagen:	Ancho=1200	Alto=1200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	489136
+
+Tiempo medido:	0.04232200 segundos.
+
+Recursiones hechas:	986717
+*************************************************************************

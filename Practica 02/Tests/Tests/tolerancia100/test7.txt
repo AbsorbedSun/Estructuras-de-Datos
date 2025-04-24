@@ -1,0 +1,140 @@
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/SocietyTest7.bmp
+Dimensiones de la imagen:	Ancho=460	Alto=250
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	66926
+
+Tiempo medido:	0.00648100 segundos.
+
+Recursiones hechas:	136697
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/SocietyTest7.bmp
+Dimensiones de la imagen:	Ancho=460	Alto=250
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	66926
+
+Tiempo medido:	0.00625700 segundos.
+
+Recursiones hechas:	136697
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/SocietyTest7.bmp
+Dimensiones de la imagen:	Ancho=460	Alto=250
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	66926
+
+Tiempo medido:	0.00801400 segundos.
+
+Recursiones hechas:	136697
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/SocietyTest7.bmp
+Dimensiones de la imagen:	Ancho=460	Alto=250
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	66926
+
+Tiempo medido:	0.00578200 segundos.
+
+Recursiones hechas:	136697
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/SocietyTest7.bmp
+Dimensiones de la imagen:	Ancho=460	Alto=250
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	66926
+
+Tiempo medido:	0.00715800 segundos.
+
+Recursiones hechas:	136697
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/SocietyTest7.bmp
+Dimensiones de la imagen:	Ancho=460	Alto=250
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	66926
+
+Tiempo medido:	0.00596100 segundos.
+
+Recursiones hechas:	136697
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/SocietyTest7.bmp
+Dimensiones de la imagen:	Ancho=460	Alto=250
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	66926
+
+Tiempo medido:	0.00636100 segundos.
+
+Recursiones hechas:	136697
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/SocietyTest7.bmp
+Dimensiones de la imagen:	Ancho=460	Alto=250
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	66926
+
+Tiempo medido:	0.00666100 segundos.
+
+Recursiones hechas:	136697
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/SocietyTest7.bmp
+Dimensiones de la imagen:	Ancho=460	Alto=250
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	66926
+
+Tiempo medido:	0.00645300 segundos.
+
+Recursiones hechas:	136697
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/SocietyTest7.bmp
+Dimensiones de la imagen:	Ancho=460	Alto=250
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	66926
+
+Tiempo medido:	0.00648200 segundos.
+
+Recursiones hechas:	136697
+*************************************************************************

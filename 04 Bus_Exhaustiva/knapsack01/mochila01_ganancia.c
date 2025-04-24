@@ -95,8 +95,7 @@ Devuelve: int que representa el valor máximo que se puede obtener
 Observaciones: Función recursiva que implementa la búsqueda exhaustiva, evaluando todas las posibles
 combinaciones de objetos (incluir o no incluir cada objeto).
 */
-int mochilaExhaustiva(int *pesos, int *valores, int n, int objActual, int capacidadRestante, int valorActual) 
-{
+int mochilaExhaustiva(int *pesos, int *valores, int n, int objActual, int capacidadRestante, int valorActual) {
     // Caso base: si ya hemos considerado todos los objetos
     if(objActual == n) {
         return valorActual;

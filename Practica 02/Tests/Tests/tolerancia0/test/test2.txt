@@ -1,0 +1,154 @@
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/GalaxyTest2.bmp
+Dimensiones de la imagen:	Ancho=1536	Alto=1200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	436158
+
+Tiempo medido:	0.03893600 segundos.
+
+Recursiones hechas:	901999
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/GalaxyTest2.bmp
+Dimensiones de la imagen:	Ancho=1536	Alto=1200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	436158
+
+Tiempo medido:	0.03614300 segundos.
+
+Recursiones hechas:	901999
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/GalaxyTest2.bmp
+Dimensiones de la imagen:	Ancho=1536	Alto=1200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	436158
+
+Tiempo medido:	0.03424200 segundos.
+
+Recursiones hechas:	901999
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/GalaxyTest2.bmp
+Dimensiones de la imagen:	Ancho=1536	Alto=1200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	436158
+
+Tiempo medido:	0.03780000 segundos.
+
+Recursiones hechas:	901999
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/GalaxyTest2.bmp
+Dimensiones de la imagen:	Ancho=1536	Alto=1200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	436158
+
+Tiempo medido:	0.03658900 segundos.
+
+Recursiones hechas:	901999
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/GalaxyTest2.bmp
+Dimensiones de la imagen:	Ancho=1536	Alto=1200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	436158
+
+Tiempo medido:	0.03547200 segundos.
+
+Recursiones hechas:	901999
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/GalaxyTest2.bmp
+Dimensiones de la imagen:	Ancho=1536	Alto=1200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	436158
+
+Tiempo medido:	0.03589800 segundos.
+
+Recursiones hechas:	901999
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/GalaxyTest2.bmp
+Dimensiones de la imagen:	Ancho=1536	Alto=1200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	436158
+
+Tiempo medido:	0.03805800 segundos.
+
+Recursiones hechas:	901999
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/GalaxyTest2.bmp
+Dimensiones de la imagen:	Ancho=1536	Alto=1200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	436158
+
+Tiempo medido:	0.03376300 segundos.
+
+Recursiones hechas:	901999
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/GalaxyTest2.bmp
+Dimensiones de la imagen:	Ancho=1536	Alto=1200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	436158
+
+Tiempo medido:	0.04338900 segundos.
+
+Recursiones hechas:	901999
+*************************************************************************
+Padding: 0
+
+*************************************************************************
+Imagen: Imagenes/GalaxyTest2.bmp
+Dimensiones de la imagen:	Ancho=1536	Alto=1200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	436158
+
+Tiempo medido:	0.03368500 segundos.
+
+Recursiones hechas:	901999
+*************************************************************************

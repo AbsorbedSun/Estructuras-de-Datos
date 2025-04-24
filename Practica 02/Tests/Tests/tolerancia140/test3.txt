@@ -1,0 +1,140 @@
+Padding: 2
+
+*************************************************************************
+Imagen: Imagenes/CampoTest3.bmp
+Dimensiones de la imagen:	Ancho=150	Alto=200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	23167
+
+Tiempo medido:	0.00220700 segundos.
+
+Recursiones hechas:	47871
+*************************************************************************
+Padding: 2
+
+*************************************************************************
+Imagen: Imagenes/CampoTest3.bmp
+Dimensiones de la imagen:	Ancho=150	Alto=200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	23167
+
+Tiempo medido:	0.00202800 segundos.
+
+Recursiones hechas:	47871
+*************************************************************************
+Padding: 2
+
+*************************************************************************
+Imagen: Imagenes/CampoTest3.bmp
+Dimensiones de la imagen:	Ancho=150	Alto=200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	23167
+
+Tiempo medido:	0.00195600 segundos.
+
+Recursiones hechas:	47871
+*************************************************************************
+Padding: 2
+
+*************************************************************************
+Imagen: Imagenes/CampoTest3.bmp
+Dimensiones de la imagen:	Ancho=150	Alto=200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	23167
+
+Tiempo medido:	0.00295500 segundos.
+
+Recursiones hechas:	47871
+*************************************************************************
+Padding: 2
+
+*************************************************************************
+Imagen: Imagenes/CampoTest3.bmp
+Dimensiones de la imagen:	Ancho=150	Alto=200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	23167
+
+Tiempo medido:	0.00197900 segundos.
+
+Recursiones hechas:	47871
+*************************************************************************
+Padding: 2
+
+*************************************************************************
+Imagen: Imagenes/CampoTest3.bmp
+Dimensiones de la imagen:	Ancho=150	Alto=200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	23167
+
+Tiempo medido:	0.00177300 segundos.
+
+Recursiones hechas:	47871
+*************************************************************************
+Padding: 2
+
+*************************************************************************
+Imagen: Imagenes/CampoTest3.bmp
+Dimensiones de la imagen:	Ancho=150	Alto=200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	23167
+
+Tiempo medido:	0.00188600 segundos.
+
+Recursiones hechas:	47871
+*************************************************************************
+Padding: 2
+
+*************************************************************************
+Imagen: Imagenes/CampoTest3.bmp
+Dimensiones de la imagen:	Ancho=150	Alto=200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	23167
+
+Tiempo medido:	0.00179900 segundos.
+
+Recursiones hechas:	47871
+*************************************************************************
+Padding: 2
+
+*************************************************************************
+Imagen: Imagenes/CampoTest3.bmp
+Dimensiones de la imagen:	Ancho=150	Alto=200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	23167
+
+Tiempo medido:	0.00214900 segundos.
+
+Recursiones hechas:	47871
+*************************************************************************
+Padding: 2
+
+*************************************************************************
+Imagen: Imagenes/CampoTest3.bmp
+Dimensiones de la imagen:	Ancho=150	Alto=200
+
+Imagen BMP tratada guardada en el archivo: tratada.bmp
+
+Pixeles modificados:	23167
+
+Tiempo medido:	0.00165100 segundos.
+
+Recursiones hechas:	47871
+*************************************************************************

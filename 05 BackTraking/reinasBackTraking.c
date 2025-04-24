@@ -2,7 +2,7 @@
   nReinas.c (Problema de las N Reinas con Backtracking)
   Autor: Aldo Garcia Ambrosio (C) Abril 2025
   Uso de IA: Claude 3.7 Sonnet
-  Version: 1.6
+  Version: 1.9
   
   Programa que resuelve el problema de las N Reinas utilizando la técnica de backtracking.
   El problema consiste en colocar N reinas en un tablero de ajedrez de N×N sin que se amenacen.
@@ -26,7 +26,6 @@
 bool validarPosicion(int **tablero, int fila, int columna, int n);
 bool nReinasBacktracking(int **tablero, int columna, int n);
 void imprimirTablero(int **tablero, int n);
-void NReinas(int n);
 
 /*
 int main(int argc, char *argv[])
@@ -76,12 +75,13 @@ int main(int argc, char *argv[]) {
         }
     }
 
-    // Resolver problema de las N Reinas con backtracking
+    // Resolver el problema de las N Reinas usando backtracking
     if (nReinasBacktracking(tablero, 0, n)) {
-        printf("Solución encontrada\n");
+        // Imprimir el tablero si se encuentra una solución
+        printf("Solucion encontrada:\n\n");
         imprimirTablero(tablero, n);
     } else {
-        printf("No se encontro solucion.\n");
+        printf("No se encontro solucion\n");
     }
 
     // Liberar memoria del tablero
@@ -97,7 +97,7 @@ int main(int argc, char *argv[]) {
 bool validarPosicion(int **tablero, int fila, int columna, int n)
 Recibe: int **tablero como matriz del tablero, fila y columna como posición a validar, n como tamaño del tablero
 Devuelve: bool que indica si es seguro colocar una reina en la posición (fila, columna)
-Observaciones: Verifica si no hay reinas en la misma fila o en las diagonales que amenacen la posición.
+Observaciones: Verifica si no hay reinas en la misma fila, columna o en las diagonales que amenacen la posición.
 */
 bool validarPosicion(int **tablero, int fila, int columna, int n) {
     // Verificar si hay reinas en la misma fila (hacia la izquierda)
@@ -140,14 +140,18 @@ bool nReinasBacktracking(int **tablero, int columna, int n) {
         if (validarPosicion(tablero, fila, columna, n)) {
             // Colocar la reina (marcar con 1)
             tablero[fila][columna] = 1;
-            
+            // Imprimir el tablero después de colocar la reina
+            imprimirTablero(tablero, n);
+
             // Recurrencia para colocar el resto de reinas en las columnas siguientes
-            if (nReinasBacktracking(tablero, columna + 1, n))
+            if (nReinasBacktracking(tablero, columna + 1, n)){
                 return true;
-            
+            }
             // Si colocar la reina en la posición (fila, columna) no lleva a una solución
             // entonces retroceder (backtrack) y quitar la reina (marcar con 0)
             tablero[fila][columna] = 0;
+            // Imprimir el tablero después de quitar la reina
+            imprimirTablero(tablero, n);
         }
     }
     
@@ -164,45 +168,12 @@ Observaciones: Imprime la configuración del tablero, donde 1 representa una rei
 void imprimirTablero(int **tablero, int n) {
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
-            printf("%d ", tablero[i][j]);
+            if (tablero[i][j] == 1)
+                printf("R "); // R representa una reina
+            else if(tablero[i][j] == 0)
+                printf("- "); // . representa una casilla vacía
         }
         printf("\n");
     }
-}
-
-/* 
-void NReinas(int n)
-Recibe: int n como el número de reinas y tamaño del tablero
-Devuelve: void (No retorna valor explícito)
-Observaciones: Función auxiliar que crea un tablero, resuelve el problema de las N Reinas
-y libera la memoria. Esta función es redundante con main() y podría eliminarse.
-*/
-void NReinas(int n) {
-    // Crear un tablero n x n
-    int **tablero = (int **)malloc(n * sizeof(int *));
-    for (int i = 0; i < n; i++) {
-        tablero[i] = (int *)malloc(n * sizeof(int));
-    }
-    
-    // Inicializar el tablero con ceros
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++) {
-            tablero[i][j] = 0;
-        }
-    }
-    
-    // Resolver el problema de las N Reinas usando backtracking
-    if (nReinasBacktracking(tablero, 0, n)) {
-        // Imprimir el tablero si se encuentra una solución
-        printf("Solucion encontrada:\n");
-        imprimirTablero(tablero, n);
-    } else {
-        printf("No se encontro solucion\n");
-    }
-    
-    // Liberar memoria
-    for (int i = 0; i < n; i++) {
-        free(tablero[i]);
-    }
-    free(tablero);
+    printf("\n");
 }

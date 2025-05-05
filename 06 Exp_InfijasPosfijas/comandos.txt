@@ -1,0 +1,44 @@
+gcc infPosfijo.c Recursos/pila_dinamica/pila_din.c -o infPosfijo
+
+Expresion original: A+B*C-D
+Expresion con valores numericos: 10+20*30-40
+Expresion posfija: 10 20 30 * + 40 -
+Resultado: 570
+
+Expresion original: A*((B-C)/Y) - PARENTESIS DE MÁS
+Expresion con valores numericos: 10*((20-30)/2)
+Expresion posfija: 10 20 30 - 2 / *
+Resultado: -50
+
+---------------
+Expresion original: ((X-Z)*(Y+W))/X+Y
+Expresion con valores numericos: ((1-1)*(2+4))/1+2
+Expresion posfija: 1 1 - 2 4 + * 1 / 2 +
+Resultado: 2
+----------------
+
+Expresion original: A*B/(A+C)
+Expresion con valores numericos: 10*20/(10+30)
+Expresion posfija: 10 20 * 10 30 + /
+Resultado: 5
+
+Expresion original: A*B/A+C
+Expresion con valores numericos: 10*20/10+30
+Expresion posfija: 10 20 * 10 / 30 +
+Resultado: 50
+
+Expresion original: (A-B)^C+D
+Expresion con valores numericos: (10-20)^30+40
+Expresion posfija: 10 20 - 30 ^ 40 +
+Resultado: 1073741864
+
+
+Expresion original: A^B*C-D+E/F/(G+H)
+Expresion con valores numericos: 10^20*30-40+50/60/(70+80)
+Expresion posfija: 10 20 ^ 30 * 40 - 50 60 / 70 80 + / +
+Resultado: -1679818792
+
+Expresion original: ((A+B)*C-(D-E))^(F+G)
+Expresion con valores numericos: ((10+20)*30-(40-50))^(60+70)
+Expresion posfija: 10 20 + 30 * 40 50 - - 60 70 + ^
+Resultado: 0

@@ -132,10 +132,10 @@ int main(int argc, char *argv[])
 
     // Crear mapa de recorrido para marcar píxeles ya procesados
     char **mapa = malloc(img.ancho * sizeof(char *));
-    for (i = 0; i < img.ancho; i++)
-    {
+    for (i = 0; i < img.ancho; i++){
         mapa[i] = malloc(img.alto * sizeof(char));
     }
+
     // Inicializar el mapa con ceros (píxeles no visitados)
     for (i = 0; i < img.ancho; i++)
         for (j = 0; j < img.alto; j++)
@@ -288,8 +288,7 @@ void cambioColor(BMP *mapa, char **mapaR, int x, int y,
 
     // Verificar si el píxel ya fue procesado o no es similar al color base
     if (!colores_similares(mapa->pixelR[x][y], mapa->pixelG[x][y], mapa->pixelB[x][y],
-                           r_actual, g_actual, b_actual, tolerancia) ||
-        mapaR[x][y] == 1){           // Si ya fue procesado
+                           r_actual, g_actual, b_actual, tolerancia) || mapaR[x][y] == 1){           // Si ya fue procesado
         return; // Color diferente o ya procesado
     }
 
@@ -313,8 +312,7 @@ void cambioColor(BMP *mapa, char **mapaR, int x, int y,
     // --- Explorar hacia arriba hasta encontrar un límite ---
     for (j = y - 1; j >= 0; j--){
         if (!colores_similares(mapa->pixelR[x][j], mapa->pixelG[x][j], mapa->pixelB[x][j],
-                               r_actual, g_actual, b_actual, tolerancia) ||
-            mapaR[x][j] == 1){
+                               r_actual, g_actual, b_actual, tolerancia) || mapaR[x][j] == 1){
             arb = j; // Encontró un límite (píxel diferente o ya procesado)
             break;
         }
@@ -329,8 +327,7 @@ void cambioColor(BMP *mapa, char **mapaR, int x, int y,
     cambioColor(mapa, mapaR, x + 1, y, r_actual, g_actual, b_actual, r_nuevo, g_nuevo, b_nuevo, contador, tolerancia);
     for (i = x + 1; i < mapa->ancho; i++){
         if (!colores_similares(mapa->pixelR[i][y], mapa->pixelG[i][y], mapa->pixelB[i][y],
-                               r_actual, g_actual, b_actual, tolerancia) ||
-            mapaR[i][y] == 1){
+                               r_actual, g_actual, b_actual, tolerancia) || mapaR[i][y] == 1){
             drc = i; // Encontró un límite
             break;
         }
@@ -345,8 +342,7 @@ void cambioColor(BMP *mapa, char **mapaR, int x, int y,
     cambioColor(mapa, mapaR, x, y + 1, r_actual, g_actual, b_actual, r_nuevo, g_nuevo, b_nuevo, contador, tolerancia);
     for (j = y + 1; j < mapa->alto; j++){
         if (!colores_similares(mapa->pixelR[x][j], mapa->pixelG[x][j], mapa->pixelB[x][j],
-                               r_actual, g_actual, b_actual, tolerancia) ||
-            mapaR[x][j] == 1){
+                               r_actual, g_actual, b_actual, tolerancia) || mapaR[x][j] == 1){
             abj = j; // Encontró un límite
             break;
         }
@@ -361,8 +357,7 @@ void cambioColor(BMP *mapa, char **mapaR, int x, int y,
     cambioColor(mapa, mapaR, x - 1, y, r_actual, g_actual, b_actual, r_nuevo, g_nuevo, b_nuevo, contador, tolerancia);
     for (i = x - 1; i >= 0; i--){
         if (!colores_similares(mapa->pixelR[i][y], mapa->pixelG[i][y], mapa->pixelB[i][y],
-                               r_actual, g_actual, b_actual, tolerancia) ||
-            mapaR[i][y] == 1){
+                               r_actual, g_actual, b_actual, tolerancia) || mapaR[i][y] == 1){
             izq = i; // Encontró un límite
             break;
         }
@@ -491,7 +486,5 @@ para incluir tonalidades similares y no solo colores idénticos.
 int colores_similares(unsigned char r1, unsigned char g1, unsigned char b1,
                       unsigned char r2, unsigned char g2, unsigned char b2,
                       int tolerancia){
-    return abs(r1 - r2) <= tolerancia &&
-           abs(g1 - g2) <= tolerancia &&
-           abs(b1 - b2) <= tolerancia;
+    return abs(r1 - r2) <= tolerancia && abs(g1 - g2) <= tolerancia && abs(b1 - b2) <= tolerancia;
 }

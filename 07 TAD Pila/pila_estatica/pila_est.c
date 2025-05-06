@@ -112,13 +112,14 @@ Efecto: Recibe una pila y un índice, y devuelve el elemento en la posición n d
 Excepción: Si el índice está fuera de rango o la pila está vacía, produce error. 
 */
 elemento Element(pila *s, int n){
-	int altura = Size(s);
+    // Obtiene el tamaño actual de la pila
+	int altura = Size(s);                
     if (n < 1 || n > altura) {
         printf("\nERROR Element(S,%d): \"Índice fuera de rango\"\n", n);
-        exit(1);
+        exit(1); // Termina si el índice es inválido
     }
     // El fondo está en A[0], el tope en A[tope]
-    return s->A[n - 1];
+    return s->A[n - 1]; // Acceso al arreglo en la posición correspondiente
 }
 
 /* 
@@ -128,13 +129,18 @@ Efecto: Recibe una pila y la invierte, de manera que el elemento que estaba en e
 está en el tope y viceversa, manteniendo el orden de todos los elementos de la pila. 
 */
 void Flip(pila *s) {
-    int i, j;
-    elemento temp;
-    int alto = s->tope;
-    // intercambiamos A[0] con A[t], A[1] con A[t-1], …
+    // Índices para el intercambio de elementos
+	int i, j;
+    // Variable temporal para el intercambio
+	elemento temp;
+    // Índice del elemento en el tope de la pila
+	int alto = s->tope;
+    
+    // Intercambiamos A[0] con A[t], A[1] con A[t-1], etc.
     for (i = 0, j = alto; i < j; ++i, --j) {
-        temp = s->A[i];
-        s->A[i] = s->A[j];
-        s->A[j] = temp;
+        temp = s->A[i]; // Guarda temporalmente el elemento del inicio
+        s->A[i] = s->A[j]; // Coloca el elemento del final al inicio
+        s->A[j] = temp; // Coloca el elemento del inicio al final
     }
+    // El bucle se detiene cuando los índices se cruzan o coinciden (mitad del arreglo)
 }

@@ -138,18 +138,21 @@ Efecto: Recibe una pila y un índice, y devuelve el elemento en la posición n d
 Excepción: Si el índice está fuera de rango o la pila está vacía, produce error. 
 */
 elemento Element(pila *s, int n) {
-    int altura = Size(s);
-	if (n < 1 || n > altura) {
-		printf("\nERROR Element(S,%d): \"Índice fuera de rango\"\n", n);
-		exit(1);
-	}
+    // Obtiene el tamaño actual de la pila
+	int altura = Size(s);   
+    if (n < 1 || n > altura) {
+        printf("\nERROR Element(S,%d): \"Índice fuera de rango\"\n", n);
+        exit(1); // Termina si el índice es inválido
+    }
 
-	int pasos = altura - n; // Número de pasos desde el tope
-	nodo *aux = s->tope;
-	for (int i = 0; i < pasos; i++) {
-		aux = aux->abajo;
-	}
-	return aux->e;
+    // Número de pasos desde el tope
+	int pasos = altura - n;              
+	// Inicia desde el tope de la pila
+	nodo *aux = s->tope;                 
+    for (int i = 0; i < pasos; i++) {
+        aux = aux->abajo; // Avanza hacia abajo en la estructura
+    }
+    return aux->e; // Retorna el elemento encontrado
 }
 
 /* 
@@ -159,13 +162,15 @@ Efecto: Recibe una pila y la invierte, de manera que el elemento que estaba en e
 está en el tope y viceversa, manteniendo el orden de todos los elementos de la pila. 
 */
 void Flip(pila *s) {
-    int n = Size(s);
-    elemento *temp = malloc(n * sizeof(*temp));
+    // Obtiene el número de elementos en la pila
+	int n = Size(s);                     
+    // Reserva memoria para un arreglo temporal
+	elemento *temp = malloc(n * sizeof(*temp));  
     for (int i = 0; i < n; ++i) {
-        temp[i] = Pop(s);
+        temp[i] = Pop(s); // Extrae elementos y los guarda en orden inverso
     }
     for (int i = 0; i < n; ++i) {
-        Push(s, temp[i]);
+        Push(s, temp[i]); // Reinserta los elementos en el mismo orden de extracción
     }
-    free(temp);
+    free(temp); // Libera la memoria del arreglo temporal
 }

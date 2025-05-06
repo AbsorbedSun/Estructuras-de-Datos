@@ -5,8 +5,8 @@ typedef char boolean;
 
 typedef struct elemento{
 	//Lo que el usuario quiera almacenar en la pila
-	//char simbolo; // Puede ser un operador
-	// int numero; // Puede ser un número
+	char simbolo; // Puede ser un operador
+	int numero; // Puede ser un número
 } elemento;
 
 typedef struct nodo{

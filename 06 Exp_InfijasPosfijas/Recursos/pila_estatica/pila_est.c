@@ -90,7 +90,7 @@ Tamaño pila (size): recibe<- pila (s); retorna -> tamaño de la pila (entero)
 n=size(s);
 Efecto: Devuelve el número de elementos que contiene la pila (Altura de la pila).
 */
-int size(pila *s){
+int Size(pila *s){
 	int r;
 	r=s->tope+1;
 	return r;

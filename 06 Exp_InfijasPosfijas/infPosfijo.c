@@ -21,11 +21,13 @@
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
-#include "Recursos/pila_dinamica/pila_din.h"
+//#include "Recursos/pila_dinamica/pila_din.h"
+#include "Recursos/pila_estatica/pila_est.h"
 
 // Prototipo de funciones
+int contarLetras(char *cadena);
 char* coversionNumeros(char *cadena, int *numeros);
-void validacionParentesis(char *expresion_numerica, pila *mi_pila, elemento e1);
+void validacionParentesis(char *expresion, pila *mi_pila, elemento e1);
 int precedencia(char operador);
 char* Posfijo(char *expresion_numerica, pila *mi_pila, elemento e1);
 int solucionPosfijo(char *expresion_posfija, pila *mi_pila, elemento e1);
@@ -40,46 +42,92 @@ a valores numéricos, valida los paréntesis, convierte la expresión a notació
 evalúa el resultado y muestra la información en cada paso del proceso.
 */
 int main(){ 
-	int i;
     // Declaración de una pila que almacenará los paréntesis de apertura
-	pila mi_pila;          
+    pila mi_pila;          
     // Elemento auxiliar para operaciones de la pila
-	elemento e1;           
-	// Arreglo para almacenar la expresion ingresada (máximo 199 caracteres + '\0')
-    char cadena[200];
-	char *expresion_numerica;
+    elemento e1;           
+    // Arreglo para almacenar la expresion ingresada (máximo 199 caracteres + '\0')
+    char cadena[100];
+    char *expresion_numerica;
     char *expresion_posfija;
     int resultado;
-	// Arreglo de valores enteros que corresponden a las letras en la expresión
-    unsigned int numeros[12] = {10, 20, 30, 40, 50, 60, 70, 80, 1, 2, 4, 1};
+    int cant_letras;
     
     // Inicialización de la pila 
-	Initialize(&mi_pila);  
+    Initialize(&mi_pila);  
     
-	printf("Ingresa la expresion a validar, por ejemplo (a+b)*(c+d) o (a+b)*(c+d): ");
-	// Lee la expresion desde la entrada estándar
+    printf("Ingresa la expresion a validar, por ejemplo (a+b)*(c+d): ");
+    // Lee la expresion desde la entrada estándar
     scanf("%s", cadena);  
-	
-	// Convierte la expresion a números
-	expresion_numerica = coversionNumeros(cadena, numeros);
-    	
-	// Llama a la función para validar paréntesis
-	validacionParentesis(expresion_numerica, &mi_pila, e1);  
-	// Llama a la funcion para pasar de infijo a posfijo
+    
+    // Primero validamos paréntesis con la expresión original
+    validacionParentesis(cadena, &mi_pila, e1);
+    
+    // Contamos cuántas letras diferentes hay en la expresión
+    cant_letras = contarLetras(cadena);
+    
+    // Reservar memoria para los arreglos de valores
+    int *numeros = malloc(cant_letras * sizeof(int));
+    if (numeros == NULL) {
+        printf("Error: No se pudo asignar memoria para los valores\n");
+        exit(1);
+    }
+    
+    // Pedir al usuario que ingrese los valores para cada letra encontrada
+    printf("\nSe encontraron %d letras diferentes en la expresion.\n", cant_letras);
+    printf("Ingresa los %d valores numericos correspondientes (uno por uno):\n", cant_letras);
+    
+    for (int i = 0; i < cant_letras; i++) {
+        printf("Valor %d: ", i+1);
+        scanf("%d", &numeros[i]); // Lee el valor numérico a asignar a las letras
+    }
+    
+    // Convierte la expresion a números
+    expresion_numerica = coversionNumeros(cadena, numeros);
+    
+    // Llama a la funcion para pasar de infijo a posfijo
     expresion_posfija = Posfijo(expresion_numerica, &mi_pila, e1);
-	// Llama a la funcion para resolver la expresion posfija
+    
+    // Llama a la funcion para resolver la expresion posfija
     resultado = solucionPosfijo(expresion_posfija, &mi_pila, e1);
 
     // Muestra la expresion original y la nueva expresion con valores numéricos
     printf("\nExpresion original: %s", cadena);
-    printf("\nExpresion con valores numericos: %s\n", expresion_numerica);
-    printf("\nExpresion posfija: %s\n", expresion_posfija);
+    printf("\nExpresion con valores numericos: %s", expresion_numerica);
+    printf("\nExpresion posfija: %s", expresion_posfija);
     printf("\nResultado: %d\n", resultado);
 
-	free(expresion_numerica); // Libera la memoria asignada para la expresion numérica
-    free(expresion_posfija); // Libera la memoria asignada para la expresion posfija
-    Destroy(&mi_pila);  // Libera la memoria utilizada por la pila
-    return 0;          // Termina el programa con código de éxito
+    // Liberar memoria
+    free(numeros);
+    free(expresion_numerica);
+    free(expresion_posfija);
+    Destroy(&mi_pila);
+    
+    return 0;
+}
+
+/*
+int contarLetras(char *cadena)
+Recibe: char *cadena como la expresión original ingresada por el usuario.
+Devuelve: Un entero con la cantidad de letras diferentes encontradas.
+Observaciones: Esta función cuenta cuántas letras diferentes hay en la expresión,
+para saber cuántos valores numéricos hay que solicitar al usuario.
+*/
+int contarLetras(char *cadena) {
+    int letras_encontradas[26] = {0}; // Para marcar las letras encontradas (solo letras a-z)
+    int i, cont = 0;
+    
+    for (i = 0; i < strlen(cadena); i++) {
+        if (isalpha(cadena[i])) {
+            char letra = tolower(cadena[i]) - 'a'; // Convertir a minúscula e índice 0-25
+            if (letra >= 0 && letra < 26 && letras_encontradas[letra] == 0) {
+                letras_encontradas[letra] = 1; // Marcar como encontrada
+                cont++;
+            }
+        }
+    }
+    
+    return cont;
 }
 
 /*
@@ -87,43 +135,61 @@ char* coversionNumeros(char *cadena, int *numeros)
 Recibe: char *cadena como la expresión original ingresada por el usuario y
 int *numeros como un arreglo de valores numéricos a asignar a cada letra.
 Devuelve: Un puntero char* a la nueva cadena con valores numéricos.
-Observaciones: Convierte letras específicas en la expresión (A-H, X, Y, W, Z) a sus 
-valores numéricos correspondientes. Las letras minúsculas son convertidas a mayúsculas
-antes de realizar la asignación.
+Observaciones: Convierte letras en la expresión a sus valores numéricos correspondientes.
 */
 char* coversionNumeros(char *cadena, int *numeros){
-	int i, pos = 0; // Inicializa la posición para la nueva cadena
-	char *neoCadena = malloc(sizeof(cadena) * sizeof(int));// Asigna espacio suficiente
+    int i, pos = 0; // Inicializa la posición para la nueva cadena
+    int longitud_cadena = strlen(cadena);
+    // Asignar espacio para la nueva cadena (cada letra podría convertirse en varios dígitos)
+    char *neoCadena = malloc(longitud_cadena * sizeof(char));
+    char letras_vistas[26] = {0}; // Para rastrear qué letras ya se han asignado
+    int indice_numeros = 0; // Índice para recorrer el arreglo de números
 
-	if (neoCadena == NULL) {
+    if (neoCadena == NULL) {
         printf("Error: No se pudo asignar memoria\n");
         exit(1);
     }
 
-	// Recorre la cadena original
-    for (i = 0; i < strlen(cadena); i++) {
-		// Convertir a mayúscula si es una letra minúscula
-        char c = toupper(cadena[i]);
-        
-        // Manejar cada letra específica
-        if (c >= 'A' && c <= 'H') {
-            // A-H corresponden a los índices 0-7
-            pos += sprintf(neoCadena + pos, "%d", numeros[c - 'A']);
-        }
-        else if (c == 'X') {
-            pos += sprintf(neoCadena + pos, "%d", numeros[8]); // X es el índice 8
-        }
-        else if (c == 'Y') {
-            pos += sprintf(neoCadena + pos, "%d", numeros[9]); // Y es el índice 9
-        }
-        else if (c == 'W') {
-            pos += sprintf(neoCadena + pos, "%d", numeros[10]); // W es el índice 10
-        }
-        else if (c == 'Z') {
-            pos += sprintf(neoCadena + pos, "%d", numeros[11]); // Z es el índice 11
-        }
-        else {
-            // Cualquier otro carácter se copia tal cual
+    // Recorre la cadena original
+    for (i = 0; i < longitud_cadena; i++) {
+        if (isalpha(cadena[i])) {
+            // Es una letra, convertir a índice 0-25
+            int indice_letra = tolower(cadena[i]) - 'a';
+            
+            if (indice_letra >= 0 && indice_letra < 26) {
+                if (letras_vistas[indice_letra] == 0) {
+                    // Primera vez que vemos esta letra
+                    letras_vistas[indice_letra] = 1;
+                    // Asignar el siguiente valor del arreglo numeros
+                    pos += sprintf(neoCadena + pos, "%d", numeros[indice_numeros]);
+                    indice_numeros++;
+                } else {
+                    // Ya vimos esta letra antes, buscar qué valor le asignamos
+                    int j;
+                    int valor_asignado = -1;
+                    
+                    // Reiniciar contadores para buscar
+                    int temp_indice_letra = 0;
+                    int temp_indice_numeros = 0;
+                    
+                    // Buscar qué valor se asignó previamente a esta letra
+                    for (j = 0; j < 26; j++) {
+                        if (letras_vistas[j] == 1) {
+                            if (j == indice_letra) {
+                                valor_asignado = numeros[temp_indice_numeros];
+                                break;
+                            }
+                            temp_indice_numeros++;
+                        }
+                    }
+                    
+                    if (valor_asignado != -1) {
+                        pos += sprintf(neoCadena + pos, "%d", valor_asignado);
+                    }
+                }
+            }
+        } else {
+            // No es una letra, copiar directamente
             neoCadena[pos++] = cadena[i];
         }
     }
@@ -135,33 +201,36 @@ char* coversionNumeros(char *cadena, int *numeros){
 }
 
 /*
-void validacionParentesis(char *expresion_numerica, pila *mi_pila, elemento e1)
-Recibe: char *expresion_numerica como la expresión con valores numéricos,
+void validacionParentesis(char *expresion, pila *mi_pila, elemento e1)
+Recibe: char *expresion como la expresión a validar,
 pila *mi_pila como una estructura de pila para verificar el balance de paréntesis, y
 elemento e1 como auxiliar para operaciones de la pila.
 Devuelve: void (No retorna valor explícito)
 Observaciones: Esta función verifica el balance de paréntesis en una expresión aritmética.
-Utiliza una pila para rastrear los paréntesis de apertura y comprobar si cada paréntesis 
-de cierre corresponde a uno de apertura. Si la expresión es válida, lo informa; si no, 
-muestra el error y termina el programa.
 */
-void validacionParentesis(char *expresion_numerica, pila *mi_pila, elemento e1){
-	// Variable de índice para recorrer la cadena
-	int i, tam_cadena;  
-	// Obtiene la longitud de la cadena ingresada
-    tam_cadena = strlen(expresion_numerica); 
+void validacionParentesis(char *expresion, pila *mi_pila, elemento e1){
+    // Variable de índice para recorrer la cadena
+    int i, tam_cadena;  
+    // Obtiene la longitud de la cadena ingresada
+    tam_cadena = strlen(expresion); 
+    
+    // Limpiar la pila primero (por si acaso)
+    while (!Empty(mi_pila)) {
+        e1 = Pop(mi_pila);
+    }
     
     // Recorre cada carácter de la cadena para verificar los paréntesis
     for(i = 0; i < tam_cadena; i++){
-        if(expresion_numerica[i] == '(') {
+        if(expresion[i] == '(') {
             // Si encuentra un paréntesis de apertura, lo guarda en la pila
-            Push(mi_pila, e1);  // El valor de e1 no importa, solo se usa la pila como contador
+            e1.simbolo = '(';
+            Push(mi_pila, e1);
         }
-        else if(expresion_numerica[i] == ')'){
+        else if(expresion[i] == ')'){
             // Si encuentra un paréntesis de cierre, verifica que exista su correspondiente apertura
             if(Empty(mi_pila)){
                 // Si la pila está vacía, significa que hay un cierre sin apertura previa
-                printf("\nExpresion no valida, intentas cerrar expresiones que no aperturaron");
+                printf("\nExpresion no valida, intentas cerrar parentesis que no aperturaron");
                 exit(1);  // Termina el programa con código de error
             }
             else{
@@ -175,15 +244,17 @@ void validacionParentesis(char *expresion_numerica, pila *mi_pila, elemento e1){
     // Al finalizar el recorrido, verifica si quedaron paréntesis sin cerrar
     if(Empty(mi_pila)){
         // Si la pila está vacía, todos los paréntesis están balanceados
-        printf("\nExpresion valida");
+        printf("\nExpresion con parentesis valida");
     }
     else{
         // Si la pila NO está vacía, quedaron paréntesis de apertura sin su correspondiente cierre
-        printf("\nExpresion no valida, hay expresiones que no han cerrado");
+        printf("\nExpresion no valida, hay parentesis que no han cerrado");
+        exit(1);
     }
     
-    // Muestra el tamaño final de la pila (debe ser 0 si la expresion es válida)
-    // printf("\nTamanio de pila antes de salir(0 para valida) = %d", Size(mi_pila));
+    // Reinicializar la pila
+    Destroy(mi_pila);
+    Initialize(mi_pila);
 }
 
 /*
@@ -192,10 +263,6 @@ Recibe: char operador como el símbolo del operador a evaluar.
 Devuelve: Entero que representa el nivel de precedencia del operador.
 Observaciones: Define la precedencia de los operadores aritméticos siguiendo
 las reglas matemáticas convencionales. Mayor número significa mayor precedencia.
-- +, -: precedencia 1
-- *, /: precedencia 2
-- ^: precedencia 3
-- Otros caracteres: -1 (para paréntesis u otros caracteres)
 */
 int precedencia(char operador) {
     switch (operador) {
@@ -213,26 +280,32 @@ pila *mi_pila como una estructura de pila para la conversión, y
 elemento e1 como auxiliar para operaciones de la pila.
 Devuelve: Un puntero char* a la expresión en notación posfija resultante.
 Observaciones: Implementa el algoritmo Shunting Yard para convertir una expresión
-en notación infija a notación posfija. Utiliza una pila para gestionar operadores
-según su precedencia. La expresión posfija resultante separa los elementos con espacios.
+en notación infija a notación posfija.
 */
 char* Posfijo(char *expresion_numerica, pila *mi_pila, elemento e1){
-	// Variable de índice para recorrer la cadena
-	int i, j = 0;  
+    // Variable de índice para recorrer la cadena
+    int i, j = 0;  
+    int longitud = strlen(expresion_numerica);
     char c; // Variable para almacenar el carácter actual
-	char *cadenaPos = malloc(sizeof(expresion_numerica) * sizeof(int)); // Arreglo para almacenar la expresion posfija
+    // Arreglo para almacenar la expresion posfija (podría ser hasta 2 veces más larga por los espacios)
+    char *cadenaPos = malloc(longitud * 2 * sizeof(char));
 
     if (cadenaPos == NULL) {
         printf("Error: No se pudo asignar memoria\n");
         exit(1);
     }
 
+    // Limpiar la pila
+    while (!Empty(mi_pila)) {
+        e1 = Pop(mi_pila);
+    }
+
     // Recorre cada carácter de la cadena
-    for (i = 0; i < strlen(expresion_numerica); i++) {
+    for (i = 0; i < longitud; i++) {
         // Si es un dígito (operando), se agrega directamente a la salida
         if (isdigit(expresion_numerica[i])) {
             // Si encontramos un número, copiamos todos sus dígitos
-            while (i < strlen(expresion_numerica) && isdigit(expresion_numerica[i])) {
+            while (i < longitud && isdigit(expresion_numerica[i])) {
                 cadenaPos[j++] = expresion_numerica[i++];
             }
             // Añadir un espacio para separar los números
@@ -300,8 +373,10 @@ char* Posfijo(char *expresion_numerica, pila *mi_pila, elemento e1){
     
     // Terminar la cadena con el carácter nulo
     cadenaPos[j] = '\0';
-    Destroy(mi_pila); // Destruir la pila después de usarla
-    Initialize(mi_pila); // Re-inicializar la pila para su uso posterior
+    
+    // Reinicializar la pila para su uso posterior
+    Destroy(mi_pila);
+    Initialize(mi_pila);
     
     return cadenaPos;
 }
@@ -313,14 +388,15 @@ pila *mi_pila como una estructura de pila para el cálculo, y
 elemento e1 como auxiliar para operaciones de la pila.
 Devuelve: Entero con el resultado de la evaluación de la expresión.
 Observaciones: Evalúa una expresión en notación posfija utilizando una pila.
-Procesa la expresión de izquierda a derecha, añadiendo operandos a la pila
-y aplicando operadores a los dos operandos superiores de la pila.
-Maneja los operadores aritméticos básicos (+, -, *, /, ^) y verifica errores
-como división por cero o expresión mal formada.
 */
 int solucionPosfijo(char *expresion_posfija, pila *mi_pila, elemento e1) {
     int i, num, op1, op2, resultado;
     char *token;
+    
+    // Limpiar la pila
+    while (!Empty(mi_pila)) {
+        e1 = Pop(mi_pila);
+    }
     
     // Duplicamos la cadena para no modificar la original
     char *copia = strdup(expresion_posfija);
@@ -404,6 +480,5 @@ int solucionPosfijo(char *expresion_posfija, pila *mi_pila, elemento e1) {
     // Liberamos la memoria de la copia
     free(copia);
     
-    printf("\nResultado de la evaluación: %d\n", resultado);
     return resultado;
 }

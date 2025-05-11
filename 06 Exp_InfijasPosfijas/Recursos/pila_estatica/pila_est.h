@@ -7,6 +7,8 @@ typedef char boolean;
 
 typedef struct elemento{
 	//Lo que el usuario guste
+	char simbolo; // Puede ser un operador
+	int numero; // Puede ser un número
 } elemento;
 
 

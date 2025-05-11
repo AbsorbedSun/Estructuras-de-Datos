@@ -13,6 +13,7 @@
   Las letras en la expresión son reemplazadas por valores numéricos predefinidos.
   
   Compilación: Windows / Linux: gcc infPosfijo.c Recursos/pila_dinamica/pila_din.c -o infPosfijo
+                                gcc infPosfijo.c Recursos/pila_dinamica/pila_din.c -o infPosfijo
   
   Ejecución: ./infPosfijo
 */
@@ -142,61 +143,35 @@ char* coversionNumeros(char *cadena, int *numeros){
     int longitud_cadena = strlen(cadena);
     // Asignar espacio para la nueva cadena (cada letra podría convertirse en varios dígitos)
     char *neoCadena = malloc(longitud_cadena * sizeof(char));
-    char letras_vistas[26] = {0}; // Para rastrear qué letras ya se han asignado
-    int indice_numeros = 0; // Índice para recorrer el arreglo de números
-
     if (neoCadena == NULL) {
-        printf("Error: No se pudo asignar memoria\n");
+        perror("Error: No se pudo asignar memoria");
         exit(1);
     }
 
-    // Recorre la cadena original
-    for (i = 0; i < longitud_cadena; i++) {
+    // Mapa de letras a valores; -1 significa "aún no asignado"
+    int letras_vistas[26];
+    for (i = 0; i < 26; i++) {
+        letras_vistas[i] = -1;
+    }
+
+    int indice_numeros = 0;  // cuántos valores de 'numeros[]' ya usamos
+
+    for (i = 0; cadena[i] != '\0'; i++) {
         if (isalpha(cadena[i])) {
-            // Es una letra, convertir a índice 0-25
             int indice_letra = tolower(cadena[i]) - 'a';
-            
-            if (indice_letra >= 0 && indice_letra < 26) {
-                if (letras_vistas[indice_letra] == 0) {
-                    // Primera vez que vemos esta letra
-                    letras_vistas[indice_letra] = 1;
-                    // Asignar el siguiente valor del arreglo numeros
-                    pos += sprintf(neoCadena + pos, "%d", numeros[indice_numeros]);
-                    indice_numeros++;
-                } else {
-                    // Ya vimos esta letra antes, buscar qué valor le asignamos
-                    int j;
-                    int valor_asignado = -1;
-                    
-                    // Reiniciar contadores para buscar
-                    int temp_indice_letra = 0;
-                    int temp_indice_numeros = 0;
-                    
-                    // Buscar qué valor se asignó previamente a esta letra
-                    for (j = 0; j < 26; j++) {
-                        if (letras_vistas[j] == 1) {
-                            if (j == indice_letra) {
-                                valor_asignado = numeros[temp_indice_numeros];
-                                break;
-                            }
-                            temp_indice_numeros++;
-                        }
-                    }
-                    
-                    if (valor_asignado != -1) {
-                        pos += sprintf(neoCadena + pos, "%d", valor_asignado);
-                    }
-                }
+            // Si es la primera vez que vemos esta letra, le asignamos un número
+            if (letras_vistas[indice_letra] < 0) {
+                letras_vistas[indice_letra] = numeros[indice_numeros++];
             }
+            // Imprimimos el valor asignado
+            pos += sprintf(neoCadena + pos, "%d", letras_vistas[indice_letra]);
         } else {
-            // No es una letra, copiar directamente
+            // Copia paréntesis, operadores, dígitos, etc.
             neoCadena[pos++] = cadena[i];
         }
     }
-    
-    // Añade el carácter nulo al final
+
     neoCadena[pos] = '\0';
-    
     return neoCadena;
 }
 
@@ -287,8 +262,8 @@ char* Posfijo(char *expresion_numerica, pila *mi_pila, elemento e1){
     int i, j = 0;  
     int longitud = strlen(expresion_numerica);
     char c; // Variable para almacenar el carácter actual
-    // Arreglo para almacenar la expresion posfija (podría ser hasta 2 veces más larga por los espacios)
-    char *cadenaPos = malloc(longitud * 2 * sizeof(char));
+    // Arreglo para almacenar la expresion posfija
+    char *cadenaPos = malloc(longitud * sizeof(char));
 
     if (cadenaPos == NULL) {
         printf("Error: No se pudo asignar memoria\n");

@@ -1,6 +1,9 @@
 {
   "files.associations": {
     "*.css": "tailwindcss",
-    "pila_din.h": "c"
+    "pila_din.h": "c",
+    "string.h": "c",
+    "tadcoladin.h": "c",
+    "presentacion.h": "c"
   }
 }

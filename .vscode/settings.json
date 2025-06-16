@@ -4,6 +4,8 @@
     "pila_din.h": "c",
     "string.h": "c",
     "tadcoladin.h": "c",
-    "presentacion.h": "c"
+    "presentacion.h": "c",
+    "tadlistadl.h": "c",
+    "funciones_hash.h": "c"
   }
 }

@@ -15,8 +15,8 @@ el cursor de la pantalla, esperar un tiempo y borrar pantalla, además por utili
 necesitarán de las siguientes librerías: "TADColaEst.h" y "TADCola/TADColaDin.h", la compilacion debera incluir las
 definiciones de las funciones segun la plataforma que se este utilizando (Windows o Linux).
 
-Compilacion: 	gcc -o simulacion_02 simulacion_02.c presentacion/presentacion(Win|Lin).o TADCola/TADCola(Din|Est|EstCirc).o (Win si se correra en Windows | Lin si se ejecutara en Linux)  "Si se tiene el codigo objeto"
-				gcc -o simulacion_02 simulacion_02.c presentacion/presentacion(Win|Lin).c TADCola/TADCola(Din|Est|EstCirc).c (Win si se correra en Windows | Lin si se ejecutara en Linux)  "Si se tiene el codigo fuente"
+Compilacion: 	gcc -o simulacion_02 simulacion_02.c Recursos/presentacion/presentacion(Win|Lin).o Recursos/TADCola/TADCola(Din|Est|EstCirc).o (Win si se correra en Windows | Lin si se ejecutara en Linux)  "Si se tiene el codigo objeto"
+				gcc -o simulacion_02 simulacion_02.c Recursos/presentacion/presentacion(Win|Lin).c Recursos/TADCola/TADCola(Din|Est|EstCirc).c (Win si se correra en Windows | Lin si se ejecutara en Linux)  "Si se tiene el codigo fuente"
 
 Ejecucion: Windows simulacion_02.exe  &  Linux ./simulacion_02
 */

@@ -1,0 +1,78 @@
+Aguila: Ave rapaz de gran tamano con vista aguda. Caza desde el aire usando sus poderosas garras.
+Ajolote: Anfibio mexicano con capacidad de regenerar extremidades. Vive en lagos de agua dulce.
+Alce: Ciervo mas grande del mundo. Los machos tienen astas anchas que mudan cada ano.
+Anaconda: Serpiente constrictora gigante de Sudamerica. Pasa mucho tiempo en rios y pantanos.
+Armadillo: Mamifero con caparazon oseo. Se enrolla como bola para protegerse de depredadores.
+Avutarda: Ave terrestre pesada, una de las mas grandes capaces de volar. Habita llanuras abiertas.
+Ballena Azul: El animal mas grande del planeta. Puede medir 30 metros y pesar 180 toneladas.
+Bisonte: Mamifero robusto que pastaba en grandes manadas en America del Norte. Simbolo de resistencia.
+Buho: Ave nocturna con vision y oido agudos. Gira su cabeza 270° para detectar presas.
+Cacatua: Loro crestado de Australasia. Muy inteligente y capaz de imitar sonidos humanos.
+Camaleon: Reptil que cambia de color segun su entorno. Ojos se mueven independientemente.
+Canguro: Marsupial australiano que salta en dos patas. Las hembras llevan crias en su bolsa.
+Caracal: Felino africano con orejas puntiagudas. Capaz de saltar 3 metros para cazar aves.
+Cebra: Equino africano con rayas unicas. Vive en manadas para protegerse de depredadores.
+Chimpance: Primo genetico del humano. Usa herramientas y vive en comunidades jerarquicas.
+Ciguena: Ave migratoria de patas largas. Construye nidos grandes en edificios altos.
+Colibri: Ave pequena que bate alas 80 veces por segundo. Se alimenta del nectar de flores.
+Condor: Ave carronera mas grande del mundo. Habita los Andes y zonas montanosas.
+Coral: Animal marino que forma colonias. Sus esqueletos crean arrecifes que albergan biodiversidad.
+Coyote: Canido adaptable de America del Norte. Caza solo o en parejas con aullidos agudos.
+Delfin: Mamifero marino inteligente que vive en grupos. Usa ecolocalizacion para cazar.
+Dragon de Komodo: Lagarto mas grande del mundo. Mordida venenosa y come presas grandes.
+Elefante: Mamifero terrestre mas grande. Usa trompa para comer, beber y comunicarse.
+Erizo: Pequeno mamifero cubierto de púas. Se enrolla para protegerse de depredadores.
+Escorpion: Aracnido con cola venenosa. Caza de noche usando pinzas y aguijon.
+Flamenco: Ave rosada que filtra agua con pico curvado. Vive en grandes colonias acuaticas.
+Foca: Mamifero marino que nada agilmente. En tierra se desplaza torpemente arrastrandose.
+Gacela: Antilope agil de Africa. Veloz corredor que escapa de depredadores con saltos.
+Gaviota: Ave marina oportunista. Roba comida de otras aves y humanos en zonas costeras.
+Geco: Lagartija con dedos adhesivos. Puede caminar por techos y superficies verticales.
+Gorila: Primo grande del humano. Vive en grupos liderados por macho de espalda plateada.
+Guacamayo: Loro grande y colorido de America. Fuerte pico para romper nueces y semillas.
+Guepardo: Animal terrestre mas rapido. Alcanza 100 km/h en carreras cortas para cazar.
+Halcon: Ave rapaz de vuelo rapido. Usa garras afiladas para capturar aves en pleno vuelo.
+Hipopotamo: Mamifero semiacuatico agresivo. Pasa horas en agua para proteger su piel del sol.
+Hormiga: Insecto social que vive en colonias. Algunas especies cultivan hongos o crian pulgones.
+Iguana: Lagarto arboreo de climas tropicales. Algunas especies son marinas en Galapagos.
+Jabali: Cerdo salvaje con colmillos afilados. Hozca el suelo buscando raices y pequenos animales.
+Jirafa: Mamifero mas alto del mundo. Usa largo cuello para alcanzar hojas en arboles altos.
+Koala: Marsupial australiano que duerme 20 horas. Se alimenta exclusivamente de hojas de eucalipto.
+Langosta: Crustaceo con tenazas poderosas. Cambia su caparazon para crecer (muda).
+Leon: Felino social que vive en manadas. Los machos protegen territorio con melena caracteristica.
+Leopardo: Felino solitario con pelaje moteado. Lleva presas grandes a arboles para guardarlas.
+Lince: Felino con orejas puntiagudas y patas peludas. Caza con sigilo en bosques y montanas.
+Lobo: Canido social que vive en manadas. Aúlla para comunicarse a larga distancia.
+Loro: Ave inteligente que imita sonidos. Pico curvo fuerte para romper nueces y semillas.
+Mapache: Mamifero nocturno con antifaz negro. Usa patas delanteras como manos para manipular objetos.
+Medusa: Animal marino gelatinoso con tentaculos urticantes. Algunas especies son mortales.
+Morsa: Mamifero marino con grandes colmillos. Los usa para sacarse del agua y establecer dominio.
+Murcielago: Unico mamifero volador. Algunas especies usan ecolocalizacion para navegar de noche.
+Nutria: Mamifero acuatico jugueton. Usa piedras para abrir moluscos y vive en grupos sociales.
+Nandu: Ave sudamericana similar al avestruz. No vuela pero corre a gran velocidad.
+Orca: Depredador marino inteligente que caza en grupos. Tambien llamada 'ballena asesina'.
+Ornitorrinco: Mamifero australiano que pone huevos. Tiene pico de pato y veneno en patas traseras.
+Oso Polar: Depredador artico que depende del hielo para cazar focas. Pelaje grueso lo protege del frio.
+Oso Pardo: Gran mamifero omnivoro. Hiberna en invierno y puede pararse sobre patas traseras.
+Panda Gigante: Oso asiatico que come bambu. En peligro por destruccion de su habitat natural.
+Pangolin: Mamifero escamoso en peligro. Se enrolla como bola para protegerse de depredadores.
+Pavo Real: Ave conocida por cola colorida del macho. La despliega en rituales de apareamiento.
+Pelicano: Ave acuatica con bolsa bajo el pico. Usa esta bolsa para pescar y almacenar comida.
+Perezoso: Mamifero arboreo que se mueve lentamente. Baja al suelo solo para defecar (1 vez/semana).
+Pinguino: Ave no voladora que nada agilmente. Los machos emperador incuban huevos en invierno.
+Pirana: Pez carnivoro de rios sudamericanos. Ataca en grupo con dientes afilados.
+Puercoespin: Roedor con púas afiladas. Las eriza para defenderse de amenazas.
+Pulpo: Molusco marino con 8 tentaculos. Inteligente y capaz de cambiar de color para camuflarse.
+Rana: Anfibio que vive en agua y tierra. Algunas especies tienen piel venenosa brillante.
+Rinoceronte: Mamifero grande con cuernos de queratina. En peligro por caza furtiva.
+Salamandra: Anfibio con cola y piel humeda. Algunas especies regeneran extremidades perdidas.
+Serpiente: Reptil sin patas que se desplaza ondulando. Algunas especies son venenosas.
+Suricata: Pequeno mamifero africano que vive en colonias. Se turnan para vigilar depredadores.
+Tapir: Mamifero herbivoro con trompa corta. Pariente primitivo de caballos y rinocerontes.
+Tarantula: Arana grande y peluda. Algunas especies lanzan pelos urticantes como defensa.
+Tiburon: Depredador marino con esqueleto cartilaginoso. Algunas especies detectan sangre a distancia.
+Tigre: Felino rayado mas grande del mundo. Solitario y en peligro por caza furtiva.
+Tortuga: Reptil con caparazon protector. Algunas especies marinas migran miles de kilometros.
+Tucan: Ave tropical con pico largo y colorido. Usa su pico para pelar frutas y regular temperatura.
+Vibora: Serpiente venenosa con colmillos retractiles. Algunas especies tienen sensores de calor.
+Zorro: Canido astuto que caza de noche. Se adapta a diversos habitats, desde bosques hasta ciudades.

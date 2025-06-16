@@ -1,0 +1,131 @@
+AFK: Away From Keyboard. Jugador inactivo temporalmente.  
+Aggro: Atencion de enemigos hacia un jugador (usualmente el tanque).  
+Aimbot: Hack que automatiza la punteria en shooters.  
+Alpha Test: Fase temprana de pruebas con bugs por corregir.  
+Backstab: Ataque por la espalda con dano extra (ej. RPGs).  
+Beta Test: Prueba avanzada previa al lanzamiento oficial.  
+Bind: Asignar una tecla a una accion especifica.  
+Buff: Mejora temporal de estadisticas o habilidades.  
+Camping: Estrategia de esperar en un lugar para emboscar.  
+Clan: Grupo organizado de jugadores (equipo o comunidad).  
+Clutch: Ganar en situacion desventajosa (ej. 1vs3).  
+Cooldown: Tiempo de espera para reusar una habilidad.  
+Crit: Dano critico (superior al normal).  
+DPS: Dano Por Segundo (metrica de efectividad).  
+Debuff: Efecto negativo temporal en un personaje.  
+Drop: Objeto que suelta un enemigo al morir.  
+Easter Egg: Secreto oculto por los desarrolladores.  
+Elite: Enemigo mas poderoso que los comunes.  
+Farm: Repetir acciones para ganar recursos/XP.  
+FPS: 1. First-Person Shooter. 2. Frames Per Second.  
+GG: Good Game. Mensaje de cortesia al finalizar.  
+Grinding: Repetir tareas para subir de nivel.  
+Hitbox: Area de colision que detecta impactos.  
+HP: Hit Points (puntos de vida).  
+KDA: Ratio de Muertes/Asistencias (eficiencia).  
+Lag: Retraso por mala conexion.  
+Leeroy Jenkins: Referencia a un jugador que actua sin estrategia.  
+Loot: Botin obtenido al derrotar enemigos.  
+Main: Personaje o rol principal de un jugador.  
+Meta: Estrategia optima en el juego actual.  
+Nerf: Debilitar un elemento para equilibrar el juego.  
+Noob: Jugador novato o inexperto.  
+OP: Overpowered (demasiado poderoso).  
+P2W: Pay to Win (ventaja por pagar con dinero real).  
+Patch: Actualizacion que corrige bugs o balance.  
+PK: Player Killer (jugador que ataca a otros).  
+PVE: Player vs Environment (jugador vs IA).  
+PVP: Player vs Player (competitivo).  
+Quest: Mision o objetivo en el juego.  
+Raid: Evento grupal contra enemigos poderosos.  
+Respawn: Reaparecer tras morir.  
+RNG: Random Number Generation (mecanicas aleatorias).  
+Salty: Actitud frustrada tras perder.  
+Speedrun: Completar un juego en el menor tiempo.  
+Spam: Repetir acciones o mensajes excesivamente.  
+Streamer: Persona que transmite gameplay en vivo.  
+Tank: Personaje con alta resistencia y defensa.  
+Tilt: Estado emocional que reduce el rendimiento.  
+Ultimate: Habilidad definitiva de un personaje.  
+Wipe: Eliminar a todo el equipo enemigo.  
+XP: Puntos de experiencia para subir de nivel.  
+Bot: Jugador controlado por IA.  
+DLC: Contenido descargable adicional.  
+Gank: Emboscada sorpresa a un enemigo.  
+Hitmarker: Indicador visual de un impacto exitoso.  
+Nuke: Arma o habilidad de destruccion masiva.  
+Spawn Kill: Matar a un jugador al reaparecer.  
+Teabagging: Gestualizacion obscena (agacharse repetidamente sobre un rival).  
+ADS: Aim Down Sights (apuntar con mira).  
+AoE: Area of Effect (habilidad que afecta una zona).  
+Boss: Enemigo principal de un nivel o mision.  
+Carry: Jugador que lidera al equipo hacia la victoria.  
+Combo: Secuencia de ataques coordinados.  
+Creep: Enemigo basico en MOBAs o RPGs.  
+Dodge: Esquivar un ataque o habilidad.  
+DotA: Defense of the Ancients (juego MOBA).  
+Frag: Eliminacion de un jugador en shooters.  
+Griefing: Molestar a otros jugadores intencionalmente.  
+Healer: Personaje que cura aliados.  
+Instakill: Muerte inmediata con un solo ataque.  
+Jungle: Zona con monstruos neutrales en MOBAs.  
+Kiting: Atraer enemigos mientras se retrocede.  
+Leet: Forma de escribir elite (ej. 1337).  
+Mana: Recurso para usar habilidades magicas.  
+Ninja: Robar loot o kills a companeros.  
+Overclock: Aumentar el rendimiento de hardware (riesgo de dano).  
+Ping: Medida de latencia en la conexion.  
+Proc: Activacion aleatoria de un efecto.  
+QQ: Expresion de llanto (burla por quejarse).  
+Rush: Ataque rapido y agresivo.  
+Smurf: Jugador experto con cuenta nueva para dominar novatos.  
+Stun: Efecto que inmoviliza a un enemigo.  
+Taunt: Provocacion para llamar la atencion.  
+Upgrade: Mejora de equipo o habilidades.  
+Vent: Escondite o acceso secreto en mapas.  
+Wallhack: Hack que permite ver a traves de paredes.  
+Zerg: Estrategia de atacar en masa (originado en StarCraft).  
+Adds: Enemigos secundarios en una pelea de jefe.  
+Bait: Enganar al enemigo para que caiga en una trampa.  
+CC: Crowd Control (habilidades que controlan enemigos).  
+DOT: Damage Over Time (dano continuo).  
+Feint: Finta o simulacion de un ataque.  
+Gank: Emboscada grupal a un enemigo.  
+HUD: Heads-Up Display (interfaz en pantalla).  
+Invulnerable: Inmune a dano temporalmente.  
+Kiting: Mantener distancia mientras se ataca.  
+Leroy Jenkins: Sinonimo de actuar sin pensar.  
+Min-Max: Optimizar estadisticas al extremo.  
+Overextend: Avanzar demasiado sin apoyo.  
+Peel: Proteger a un aliado vulnerable.  
+Res: Resurreccion (revivir a un aliado).  
+Split Push: Dividirse para presionar multiples objetivos.  
+Tank: Personaje que absorbe dano.  
+Ult: Habilidad definitiva (abreviatura de Ultimate).  
+Ward: Objeto que revela areas en MOBAs.  
+YOLO: You Only Live Once (jugada arriesgada).  
+Zoning: Controlar un area para limitar al enemigo.  
+AFK Farm: Ganar recursos estando inactivo.  
+Blue Shell: Item en Mario Kart que ataca al primero.  
+Crit Chance: Probabilidad de golpe critico.  
+DPS Check: Prueba de dano en tiempo limitado.  
+Eco Round: Ronda donde se ahorra dinero (ej. CS:GO).  
+Frag Movie: Video de highlights de jugadores.  
+Gold Farm: Enfocarse en conseguir dinero rapido.  
+Hard Carry: Jugador que carga al equipo solo.  
+Itemization: Estrategia de eleccion de objetos.  
+Juke: Movimiento impredecible para esquivar.  
+Kill Steal: Robar la eliminacion a un aliado.  
+Last Hit: Golpe final para obtener recompensas.  
+Macro: Gestion global de recursos/estrategia.  
+Neutral Creep: Monstruos no aliados ni enemigos.  
+Objective: Meta principal (ej. torre, jefe).  
+Penta Kill: 5 eliminaciones seguidas (ej. LoL).  
+Quick Scope: Disparo rapido con mira en shooters.  
+Root: Efecto que inmoviliza sin stun.  
+Snowball: Ventaja que crece exponencialmente.  
+Tower Dive: Atacar bajo torre enemiga arriesgadamente.  
+Vanish: Habilidad de invisibilidad temporal.  
+Wave Clear: Limpiar oleadas de enemigos rapido.  
+Xp Leech: Robar experiencia de aliados.  
+Zero Death: Partida sin morir.  
